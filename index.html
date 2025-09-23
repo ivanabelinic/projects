@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile App Portfolio | 4 Innovative Apps</title>
+    <meta name="description"
+        content="Professional mobile app developer portfolio showcasing 4 innovative mobile applications: Adoptly, CultureClick, Sofascore Mini, and TTPay. Download APKs and explore features.">
+    <meta name="author" content="Mobile App Developer">
+
+    <meta property="og:title" content="Mobile App Portfolio | 4 Innovative Apps">
+    <meta property="og:description"
+        content="Professional mobile app developer portfolio showcasing 5 innovative mobile applications with APK downloads and detailed features.">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+
+
+            <div class="hero-badge">
+                <i class="fas fa-code"></i>
+                <span>Mobile Application Developer</span>
+            </div>
+
+            <h1 class="hero-title">
+                My Mobile App
+                <span class="hero-accent">Portfolio</span>
+            </h1>
+
+            <p class="hero-description">
+                Showcasing 4 innovative mobile applications built with modern technologies.
+                Each app demonstrates different aspects of mobile development, from social platforms to utility tools.
+            </p>
+
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>4 Mobile Apps</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-download"></i>
+                    <span>APK Downloads</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-code"></i>
+                    <span>Full Source Available On Request</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-description">
+                    Each project includes detailed descriptions, feature lists, screenshots,
+                    testing credentials, and downloadable APK files.
+                </p>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Projects will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Technologies Section -->
+    <section class="technologies-section">
+        <div class="container">
+            <h3 class="technologies-title">Technologies Used</h3>
+            <div class="technologies-grid" id="technologiesGrid">
+                <!-- Technologies will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                All apps are available for download and testing. Contact me for source code access.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="modal-close" onclick="closeModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+
+            <div class="modal-content">
+
+                <div class="modal-left">
+                    <!-- Logo -->
+                    <div class="modal-logo">
+                        <img id="modalLogo" src="" alt="App Logo">
+                    </div>
+
+                    <!-- Screenshot Slider -->
+                    <div class="modal-screenshot-container">
+                        <button class="carousel-btn prev" onclick="prevScreenshot()">&#10094;</button>
+                        <div class="modal-screenshot" id="modalScreenshot">
+                            <img src="" alt="Project Screenshot">
+                        </div>
+                        <button class="carousel-btn next" onclick="nextScreenshot()">&#10095;</button>
+                    </div>
+
+                    <!-- Technologies -->
+                    <div class="modal-technologies" id="modalTechnologies">
+                        <!-- Technologies will be populated by JavaScript -->
+                    </div>
+                </div>
+
+
+                <div class="modal-right">
+                    <div class="modal-section">
+                        <div class="modal-section-header">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h3>Description</h3>
+                        </div>
+                        <p class="modal-description" id="modalDescription"></p>
+                    </div>
+
+                    <div class="modal-section">
+                        <div class="modal-section-header">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Key Features</h3>
+                        </div>
+                        <ul class="modal-features" id="modalFeatures">
+                            <!-- Features will be populated by JavaScript -->
+                        </ul>
+                    </div>
+
+                    <div class="modal-section">
+                        <div class="modal-section-header">
+                            <i class="fas fa-key"></i>
+                            <h3>Testing Notes</h3>
+                        </div>
+                        <ul class="modal-features modal-notes-list" id="modalNotes">
+                            <!-- Notes will be populated by JavaScript -->
+                        </ul>
+                    </div>
+
+
+                    <div class="modal-actions">
+                        <button class="btn btn-primary" onclick="downloadApp()">
+                            <i class="fas fa-download"></i>
+                            Download APK
+                        </button>
+                        <button class="btn btn-secondary" onclick="closeModal()">
+                            Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
