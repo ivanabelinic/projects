@@ -27,7 +27,7 @@ const projects = [
             "Shelter — Email: zelenadolina@gmail.com, Password: Zelenadolina1",
             "Registration is open: new users can create accounts."
         ],
-        apkUrl: "adoptly_app_debug.apk",
+        apkUrl: 'https://github.com/ivanabelinic/projects/releases/download/v1.0.0-adoptly/adoptly_app_debug.apk',
         technologies: ["Kotlin", "Android Studio", "Firebase", "Agora SDK", "Google Maps API", "Google Places API", "MVVM Architecture", "Hilt Dependency Injection"],
         category: "Pet Adoption"
     },
@@ -62,7 +62,7 @@ make local cultural and social experiences easily accessible to users of all age
             "Test user credentials available for app login",
             "Username: pixode, Password: pixode"
         ],
-        apkUrl: 'culture_click_app_debug.apk',
+        apkUrl: 'https://github.com/ivanabelinic/projects/releases/download/v1.0.0-cultureclick/culture_click_app_debug.apk',
         technologies: [
             "Kotlin",
             "Android Studio",
@@ -105,7 +105,7 @@ player profiles, tournament tracking, and customizable settings, embodying best 
             "Final project combining theory and practice from Sofascore Android Academy.",
             "Built with Kotlin, MVVM/MVI architectures, Retrofit, Coroutines, Paging, and Git versioning.",
         ],
-        apkUrl: 'sofascoremini.apk',
+        apkUrl: 'https://github.com/ivanabelinic/projects/releases/download/v1.0.0-sofascoremini/sofascoremini.apk',
         technologies: [
             "Kotlin",
             "MVVM/MVI Architecture",
@@ -154,7 +154,7 @@ providing a secure and user-friendly payment ecosystem.`,
             "Admin: username: kkatic, password: password",
             "Merchant: username: ffilipovic, password: password"
         ],
-        apkUrl: 'ttpay_app_debug.apk',
+        apkUrl: 'https://github.com/ivanabelinic/projects/releases/download/v1.0.0-ttpay/ttpay_app_debug.apk',
         technologies: [
             "Kotlin",
             "Java (Spring Boot)",
