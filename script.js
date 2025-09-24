@@ -154,7 +154,7 @@ providing a secure and user-friendly payment ecosystem.`,
             "Admin: username: kkatic, password: password",
             "Merchant: username: ffilipovic, password: password"
         ],
-        apkUrl: 'https://github.com/ivanabelinic/projects/releases/download/v1.0.0-ttpay/ttpay_app_debug.apk',
+        apkUrl: 'https://github.com/ivanabelinic/projects/releases/download/v1.0.0-ttpay/app_debug.apk',
         technologies: [
             "Kotlin",
             "Java (Spring Boot)",
